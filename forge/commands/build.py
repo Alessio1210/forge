@@ -7,6 +7,10 @@ app = typer.Typer()
 def build():
     pass
 
+@app.command()
+def get_build_information():
+    pass
+
 
 
 
