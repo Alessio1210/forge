@@ -12,6 +12,7 @@ dependencies = [
     "rich>=13",
     "pyyaml>=6",
     "pydantic>=2",
+    "oandas>=3"
 ]
 
 [project.scripts]
