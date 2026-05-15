@@ -3,9 +3,7 @@ import sqlite3
 
 app = typer.Typer()
 
-@app.component
-def get_database_querys()
-    pass
+
 
 
 '''
