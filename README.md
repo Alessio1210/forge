@@ -3,6 +3,17 @@
 einfach installieren als cli tool und dann los geht.
 schreibe `forge --help` um alle verfügbaren befehle zu sehen.
 
+# installieren
+installieren kannst du `forge` in dem projekt ordner mit:
+```
+git clone https://github.com/Alessio1210/forge
+cd forge
+# und zum installierern dann
+pip install -e .
+# oder bei so einer installation wie ich habe einfach um sicherzugehen
+python3 -m pip isntall -e .
+```
+
 # existierende befehle
 
 `forge --help`
