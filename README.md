@@ -27,3 +27,6 @@ zeigt dir wo die env datei liegt wenn die existiert, wenn nicht dann wird die en
 
 `forge requrements`
 schaut in allen python daten nach was importiert wurde und erstellt eine requrements-dev.txt file mit allen reqirements die installiert wurden
+
+`forge testcon`
+frage dich ein paar dinge und wenn du diese richtig beantwortet hast, wird einfach eine kurze connection getestet und damit kannst du testen ob die verbindung gelappt hat oder nicht funkitoniert 

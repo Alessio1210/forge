@@ -3,6 +3,10 @@ from rich.console import Console
 from .commands.env import run
 from .commands.startup import startup_run
 from .commands.requirements import create_requirements_file
+from .commands.db import testcpnnection
+
+
+
 app = typer.Typer()
 console = Console()
 
@@ -24,6 +28,9 @@ def env():
 def requirements():
 	create_requirements_file()
 
+@app.command()
+def testcon():
+	testcpnnection()
 
 if __name__ == "__main__":
     app()
