@@ -15,8 +15,10 @@ forge/commands/doctor.py
 forge/commands/env.py
 forge/commands/pipeline.py
 forge/commands/project.py
+forge/commands/requirements.py
 forge/commands/runbook.py
 forge/commands/service.py
+forge/commands/startup.py
 forge/config/loader.py
 forge/config/schema.py
 forge/core/detector.py

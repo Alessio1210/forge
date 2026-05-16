@@ -4,15 +4,24 @@ einfach installieren als cli tool und dann los geht.
 schreibe `forge --help` um alle verfügbaren befehle zu sehen.
 
 # installieren
-installieren kannst du `forge` in dem projekt ordner mit:
+wenn du `forge` als cli tool überall auf deinem pc benutzen willst, installiere es am besten mit `pipx`:
 ```
 git clone https://github.com/Alessio1210/forge
 cd forge
-# und zum installierern dann
-pip install -e .
-# oder bei so einer installation wie ich habe einfach um sicherzugehen
-python3 -m pip isntall -e .
+
+# pipx installieren, falls du es noch nicht hast
+python3 -m pip install --user pipx
+python3 -m pipx ensurepath
+
+# terminal neu starten, dann forge installieren
+pipx install -e .
 ```
+
+danach kannst du `forge` in jedem ordner im terminal benutzen:
+```
+forge --help
+```
+
 
 # existierende befehle
 
@@ -29,4 +38,4 @@ zeigt dir wo die env datei liegt wenn die existiert, wenn nicht dann wird die en
 schaut in allen python daten nach was importiert wurde und erstellt eine requrements-dev.txt file mit allen reqirements die installiert wurden
 
 `forge testcon`
-frage dich ein paar dinge und wenn du diese richtig beantwortet hast, wird einfach eine kurze connection getestet und damit kannst du testen ob die verbindung gelappt hat oder nicht funkitoniert 
+frage dich ein paar dinge und wenn du diese richtig beantwortet hast, wird einfach eine kurze connection getestet und damit kannst du testen ob die verbindung gelappt hat oder nicht funkitoniert
